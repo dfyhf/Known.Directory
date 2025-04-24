@@ -9,20 +9,20 @@
         @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
         
         body {
-            margin: 0;
-            padding: 0;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            height: 100vh;
-            background:
-              linear-gradient(135deg, #1e2a38 0%, #2c3e50 50%, #3b4a5f 100%),
-              url('https://transparenttextures.com/patterns/asfalt-dark.png');   
-            background-blend-mode: overlay;
-
-            color: #7f8c8d;
-            font-family: 'Montserrat', sans-serif; /* Default font */
-            position: relative; /* Required for absolute positioning */
+          margin: 0;
+          padding: 0;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          height: 100vh;
+          background:
+            linear-gradient(135deg, #1e2a38 0%, #2c3e50 50%, #3b4a5f 100%),
+            url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='2' stitchTiles='stitch'/></filter><rect width='100%' height='100%' filter='url(%23n)' opacity='0.02'/></svg>");
+          background-blend-mode: overlay;
+          background-size: cover;
+          color: #7f8c8d;
+          font-family: 'Montserrat', sans-serif;
+          position: relative;
         }
         .overlay {
             position: absolute;
